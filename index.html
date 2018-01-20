@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Для соц. сетей -->
+    <meta property="og:url" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Артем Исламов - верстка сайтов на HTML и CSS">
+    <meta property="og:image" content="">
+    <meta property="og:description" content="Закажите разработку сайта без посредников от 5 990 рублей">
+    <meta property="og:site_name" content="Портфолио верстальщика">
+    <meta property="article:author" content="Артем Исламов">
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <title>Портфолио</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="main">
+      <div class="mask">
+        <div class="main-header">
+          <h1>Portfolio Site</h1>
+          <div id="main-line"></div>
+          <p>Верстка на HTML и CSS <br>
+            Разработка сайтов под ключ</p>
+        </div>
+
+        <div class="down_arrow">
+          <i class="fa fa-chevron-down icon_down" aria-hidden="true"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio">
+      <div class="container">
+        <div class="portfolio_title">
+          <h2>Портфолио</h2>
+        </div>
+
+        <div class="row portfolio_content">
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12" id="portfolio_item">
+            <div class="portfolio_block">
+                <img src="img/portfolio/1.png" alt="Работа 1">
+                <h4><a href="#work" id="work_1" data-toggle="modal">Смотреть работу</a></h4>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12" id="portfolio_item">
+            <div class="portfolio_block">
+              <img src="img/portfolio/2.png" alt="Работа 2">
+              <h4><a href="#work" id="work_2" data-toggle="modal">Смотреть работу</a></h4>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12" id="portfolio_item">
+            <div class="portfolio_block">
+              <img src="img/portfolio/3.png" alt="Работа 3">
+              <h4><a href="#work" id="work_3" data-toggle="modal">Смотреть работу</a></h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <strong>Portfolio Site</strong>
+            <p>Разработка сайтов <br>
+                под ключ</p>
+          </div>
+
+          <div class="col-lg-6">
+            <strong>Подпишитесь</strong>
+
+            <ul>
+              <li><a href="#"><i class="fa fa-vk social_icon" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-instagram social_icon" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter social_icon" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3">
+            <strong>Напишите мне</strong>
+
+            <a href="#" class="offer_btn">Заказать сайт</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="work" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+            <h4 class="modal-title"></h4>
+          </div>
+
+          <div class="modal-body">
+             <div class="row">
+               <div class="col-md-5">
+                <img src="" alt="">
+               </div>
+
+               <div class="col-md-7">
+                <h4 id="site-title"></h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                   Ea aliquid voluptas rem sit quia dolorem voluptatum, natus
+                    tempora consectetur sint fuga id fugiat, totam assumenda 
+                    odit dolorum voluptate. Eveniet, similique?</p>
+                <a href="#" class="modal-btn">Заказать такой сайт</a>
+               </div>
+             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

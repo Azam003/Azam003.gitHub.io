@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+*
+{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body 
+{
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+
+.main 
+{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background: url("../img/main_bg.png") no-repeat center center / cover;
+    color: #fff;
+    text-align: center;
+}
+
+.mask 
+{
+    background-color: rgba(0,0,0,.5);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-header 
+{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+
+.main h1 
+{
+    margin: 0;
+    padding-bottom: 30px;
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+#main-line
+{
+    width: 200px;
+    border-bottom: 2px solid #fff;
+    margin: 0 auto;
+}
+
+.main p 
+{
+    padding-top: 42px;
+    font-size: 30px;
+}
+
+.down_arrow .icon_down
+{
+    font-size: 30px;
+    bottom: 0px;
+    padding-bottom: 72px;
+    color: #fff;
+    position: absolute;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.down_arrow .icon_down:hover
+{
+    color: #b9b9b9;
+    transition: 0.5s;
+}
+
+.portfolio 
+{
+    padding: 60px 0;
+    text-align: center;
+    height: 100vh;
+}
+
+.portfolio_title h2
+{
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+    font-size: 36px;
+}
+
+.portfolio_block img
+{
+    margin-top: 80px;
+    margin-bottom: 40px;
+    width: 100%;
+    min-width: 300px;
+
+    box-shadow: 0px 4px 29px 0px rgba(87, 92, 97, 9.54);
+}
+
+.portfolio_block img:hover
+{
+    cursor: pointer;
+}
+
+
+.portfolio_block a
+{
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    color: #555555;
+    font-size: 24px;
+    transition: 0.5s;
+}
+
+.portfolio_block a:hover 
+{
+    color: #b9b9b9;
+}
+
+.footer
+{
+    text-align: center;
+    background: #646464;
+    color: #fff;
+    padding: 50px;
+}
+
+.footer strong 
+{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.footer p 
+{
+    font-size: 20px;
+    padding: 8px;
+    line-height: 1;
+}
+
+.footer ul 
+{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer ul li a .social_icon
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #b9b9b9;
+    color: #fff;
+    font-size: 30px;
+    margin: 10px;
+    text-align: center;
+    padding-top: 8px;
+    transition: 0.5s;
+}
+
+a 
+{
+    text-decoration: none;
+}
+
+a:hover 
+{
+    text-decoration: none;
+}
+
+.footer ul li a .social_icon:hover
+{
+    color: #646464;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+.footer .offer_btn
+{
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    transition: 0.5s;
+    font-size: 16px;
+    font-weight: 300;
+    width: 250px;
+    margin: 10px auto;
+}
+
+.footer .offer_btn:hover
+{
+    color: #646464;
+    background-color: #fff;
+}
+
+.modal 
+{
+    margin-top: 100px;
+}
+
+.modal-body 
+{
+    padding: 20px;
+}
+
+.modal-title
+{
+    font-size: 30px;
+}
+
+.modal img 
+{
+    width: 100%;
+}
+
+.close 
+{
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    float: right;
+}
+
+.close:hover 
+{
+    color: #646464;
+}
+
+#site-title
+{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.modal-btn
+{
+    font-size: 20px;
+    color: #333333;
+    text-decoration: none;
+}
+
+.modal-btn:hover 
+{
+    color: #646464;
+}
+
+@media (min-width: 0px) and (max-width: 480px)
+{
+    .portfolio 
+    {
+        height: auto;
+    }
+
+    .footer strong 
+    { 
+        font-size: 30px;
+        padding-bottom: 20px;
+    }  
+
+    .portfolio img
+    {
+        width: 80%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 780px)
+{
+    .portfolio 
+    {
+        height: auto;
+    }
+    
+    .portfolio img
+    {
+        width: 60%;
+    }
+}
+
+@media (min-width: 781px) and (max-width: 980px)
+{
+    .portfolio 
+    {
+        height: auto;
+    }
+}
